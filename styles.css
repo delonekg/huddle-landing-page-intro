@@ -11,14 +11,10 @@
     --body: 'Open Sans', sans-serif;
 }
 
-html {
-    overflow-x: hidden;
-}
 
 body {
     background-color: var(--violet);
     background-image: url("images/bg-desktop.svg");
-    position: relative;
 }
 
 /* Main Container */
@@ -96,7 +92,7 @@ button:hover {
     background-color: var(--soft-magenta);
 }
 
-/* Mobile Design */
+/* Mobile Design
 @media (max-width: 376px) {
     body {
         background-image: url("images/bg-mobile.svg");
@@ -139,4 +135,4 @@ button:hover {
     .socials {
         margin-left: 100px;
     }
-}
+} */
