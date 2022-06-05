@@ -11,9 +11,14 @@
     --body: 'Open Sans', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--violet);
     background-image: url("images/bg-desktop.svg");
+    position: relative;
 }
 
 /* Main Container */
@@ -89,4 +94,49 @@ button:hover {
     cursor: pointer;
     color: #fff;
     background-color: var(--soft-magenta);
+}
+
+/* Mobile Design */
+@media (min-width: 374px) {
+    body {
+        background-image: url("images/bg-mobile.svg");
+        background-size: 140%;
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 1.875rem;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #main {
+        margin: 3.125rem 0; 
+    }
+
+    h1 {
+        width: 320px;
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 14px;
+        width: 265px;
+        margin: 0 auto;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .socials {
+        margin-left: 100px;
+    }
 }
