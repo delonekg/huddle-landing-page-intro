@@ -97,7 +97,7 @@ button:hover {
 }
 
 /* Mobile Design */
-@media (min-width: 374px) {
+@media (max-width: 376px) {
     body {
         background-image: url("images/bg-mobile.svg");
         background-size: 140%;
